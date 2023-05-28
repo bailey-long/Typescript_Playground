@@ -1,21 +1,29 @@
 ## Implcit Types
 Assumed data types commonly seen in javascript. Typescript will not allow Implicit types.  
-```let firstName = "Dylan";```
+```ts
+let firstName = "Dylan";
+```
 
 ## Explicit Types
 Clearly defined data types e.g  
-```let firstName: string = "Dylan";```
+```ts
+let firstName: string = "Dylan";
+```
 
 ## Infered Types
 This is when typescript is left to guess the type of a variable. This is a result of implicit data types.
 
 ## "Any" Type
 You can use the "any" type to disable type checking
-``` let v: any = true; ```
+``` ts
+let v: any = true; 
+```
 
 ## "Unknown" Type
 "Unkown" works much the same as "any" but much safer. Typescript will prevent this type to be used.  
-``` let v: any = true; ```
+```ts 
+let v: any = true; 
+```
 
 ## Casting Types
 Casting is when you assign a type to an "unkown" or "any" variable.  
