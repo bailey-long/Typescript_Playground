@@ -20,7 +20,7 @@ In typescript, due to it's nature, when using the dot notation to apply methods 
 It is very safe to declare a variable as ``` let/const variableName = value ``` due to how typescript uses inference. There are cases in which you should declare a variable with the type however, commonly if a variable is declared with no value.
 
 ## Implcit Types
-Assumed data types commonly seen in javascript. Typescript will not allow Implicit types.  
+Assumed data types commonly seen in javascript. 
 ```ts
 let firstName = "Dylan";
 ```
