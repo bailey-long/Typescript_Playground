@@ -54,7 +54,7 @@ let v: any = true;
 Casting is when you assign a type to an "unkown" or "any" variable.  
 
 ## "Never" Type
-Throws an error whenever it is defined. This is a rarely used type.
+Throws an error whenever it is defined, used in functions that debug with throws.
 
 ## Undefined and null types
 The same as javascript typing.  
