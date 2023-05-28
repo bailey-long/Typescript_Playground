@@ -19,7 +19,7 @@ let firstName: string = "Dylan";
 This is when typescript is left to guess the type of a variable. This is a result of implicit data types.
 
 ## "Any" Type
-You can use the "any" type to disable type checking
+You can use the "any" type to disable type checking. It is reccommended not to use this.
 ``` ts
 let v: any = true; 
 ```
