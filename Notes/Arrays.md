@@ -1,4 +1,4 @@
-## Arrays
+# Arrays
 Typescript has special definition methods for arrays
 ```ts 
     const names: string[] = [];

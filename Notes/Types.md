@@ -1,3 +1,8 @@
+# Types
+### string
+### Boolean
+### Number
+
 ## Implcit Types
 Assumed data types commonly seen in javascript. Typescript will not allow Implicit types.  
 ```ts
