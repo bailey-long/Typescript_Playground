@@ -8,3 +8,4 @@ console.log(greetings);
 let userId = 334455;
 //Boolean with inferred type
 let isLoggedIn = true;
+
