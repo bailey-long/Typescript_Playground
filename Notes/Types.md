@@ -20,7 +20,7 @@ In typescript, due to it's nature, when using the dot notation to apply methods 
 It is very safe to declare a variable as ``` let/const variableName = value ``` due to how typescript uses inference. There are cases in which you should declare a variable with the type however, commonly if a variable is declared with no value.
 
 ## Implcit Types
-Assumed data types commonly seen in javascript. Typescript will not allow Implicit types.  
+Assumed data types commonly seen in javascript. 
 ```ts
 let firstName = "Dylan";
 ```
@@ -54,7 +54,7 @@ let v: any = true;
 Casting is when you assign a type to an "unkown" or "any" variable.  
 
 ## "Never" Type
-Throws an error whenever it is defined. This is a rarely used type.
+Throws an error whenever it is defined, used in functions that debug with throws.
 
 ## Undefined and null types
 The same as javascript typing.  
